@@ -1,0 +1,119 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+#nav-design {
+    /* position: absolute; */
+    width: 27px;
+    height: 9px;
+    /* left: 1px;
+    top: 10px; */
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+}
+
+#header {
+    font-weight: 600px;
+    font-size: 23px;
+    /* line-height: 24px; */
+    /* identical to box height, or 104% */
+
+    letter-spacing: 2px;
+
+    /* Text/text-gray-dark */
+
+    color: #292B2E;
+}
+
+#line {
+    border: 1px solid #E1E4E8;
+}
+
+#sub-heading {
+    font-weight: 400;
+    font-size: 18px;
+    color: #858585;
+
+}
+
+#heading {
+    color: #252B42;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.accordion-button:after {
+    order: -1;
+    margin-left: 0;
+    margin-right: 0.5em;
+
+}
+
+#news-heading {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+
+    color: #737373;
+}
+
+img {
+    height: 10px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.1px;
+
+    /* Text/text-gray-dark */
+
+    color: #292B2E;
+}
+
+#author {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 28px;
+    /* identical to box height, or 215% */
+
+    letter-spacing: 0.2px;
+
+    /* Text/text-gray */
+
+    color: #586069;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.2px;
+
+    /* Text/text-gray-dark */
+
+    color: #292B2E;
+}
+
+a {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+
+.card{
+    overflow: hidden;
+    transition: 0.2s all;
+}
+
+
+img:hover {
+    filter: brightness(50%);
+}
